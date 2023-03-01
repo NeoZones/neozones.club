@@ -26,19 +26,19 @@ SCROLLING TEXT
  Also HTML simply won't work, so you will be unable to add links
  (<a href="https://example.com">piss</a>) and anything else, so sorry, Gov. */
 document.write("<marquee scrollamount=2 scrolldelay=16 truespeed>"
-+"Welcome to NeoZones, I guess... idk..." // OwlMan 2020-02-02
-//+"Thank you and goodbye." // OwlMan 2020-01-31
-//+"Peace, prosperity and friendship with all nations!" // OwlMan 2020-01-30
-//+"Welcome to NeoZones, I guess... idk..." // OwlMan 2020-01-03
-//+"2020 here we come B^)" // OwlMan 2019-12-28
-//+"&#x2744;&#xFE0F; Happy Christmas everyone, from everyone at NeoZones! Ho, ho, bloody ho. . . &#x1F384;" // OwlMan 2019-12-17
-//+"The new and sexy AcidJaw is out, check it out or die &#x1F52A;" // OwlMan 2019-12-09
-//+"NeoZones version 2.1 is now fully out, bitchies, a big THNAK YOU to Bytemoth, who now has his own site on here!" // OwlMan 2019-11-25
-//+"Help us at NeoZones as we invade mainland Poland! ... wait... Britain and France declared what?" // OwlMan 2019-11-14
-//+"Welcome to NeoZones, please don't drink the water." // OwlMan 2019-11-06
-//+"Happy Bonfire Night to all of our brothers and sisters in the UK, remember to stay safe! &#x1F386;" // OwlMan 2019-11-05
-//+"Welcome to NeoZones, home of some weird people" // OwlMan 2019-11-02
-//+"2019-10-31: Happy Halloween from everyone at NeoZones &#x1F383;" // OwlMan
++"Welcome to NeoZones, I guess... idk..." // Owly 2020-02-02
+//+"Thank you and goodbye." // Owly 2020-01-31
+//+"Peace, prosperity and friendship with all nations!" // Owly 2020-01-30
+//+"Welcome to NeoZones, I guess... idk..." // Owly 2020-01-03
+//+"2020 here we come B^)" // Owly 2019-12-28
+//+"&#x2744;&#xFE0F; Happy Christmas everyone, from everyone at NeoZones! Ho, ho, bloody ho. . . &#x1F384;" // Owly 2019-12-17
+//+"The new and sexy AcidJaw is out, check it out or die &#x1F52A;" // Owly 2019-12-09
+//+"NeoZones version 2.1 is now fully out, bitchies, a big THNAK YOU to Bytemoth, who now has his own site on here!" // Owly 2019-11-25
+//+"Help us at NeoZones as we invade mainland Poland! ... wait... Britain and France declared what?" // Owly 2019-11-14
+//+"Welcome to NeoZones, please don't drink the water." // Owly 2019-11-06
+//+"Happy Bonfire Night to all of our brothers and sisters in the UK, remember to stay safe! &#x1F386;" // Owly 2019-11-05
+//+"Welcome to NeoZones, home of some weird people" // Owly 2019-11-02
+//+"2019-10-31: Happy Halloween from everyone at NeoZones &#x1F383;" // Owly
 //+"OH YEAAAAH NEW DESIGN!! lml &bull; Last update: 2019-10-29" // TEH LEROY
 +"</marquee>");
 
