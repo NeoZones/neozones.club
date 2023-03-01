@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>Owly's RSS Thoughts</title>
+    <description>Hello there, well then, welcome to my RSS feed, oh my! This will be used as what I guess could be best called an "unsocial-social network". I'm unsure if anyone has ever done this before, that is where they use an RSS feed as just a blog, but that doesn't really matter.
+	
+	Follow for rubbish that fills my brain. Most of what I will post should be SFW, but I may use ruse language every now-and-then!
+	</description>
+    <webfeeds:logo>https://owlman.neocities.org/floppy.png</webfeeds:logo>
+    <webfeeds:accentColor>2b90d9</webfeeds:accentColor>
+    <image>
+      <url>https://owlman.neocities.org/floppy.png</url>
+      <title></title>
+      <link></link>
+    </image>
+    <webfeeds:icon>https://owlman.neocities.org/floppy.png</webfeeds:icon>
+    <item>
+      <title>Commission I Got!</title>
+      <pubDate>Sun, 31 May 2020 17:02:42 +0000</pubDate>
+      <description>Hello there, everyone!
+	  &lt;/p&gt;&lt;p&gt;
+	  A about a month ago I guess, my E-Friend, Randy of tehleroy.neocities.org made a post on his FA saying that he was going to do commissions, so as a way to support my friend (and to get something out of it), I did just that!  
+	  &lt;/p&gt;&lt;p&gt;
+	  Here is what I got; me and my two dogs, Albert (left) and Rue (who was seen in my first RSS post). Thank you very much, Randy, and also make sure that you check out their other work.
+	  &lt;/p&gt;&lt;p&gt;
+	  https://digipres.club/@OwlMan/104248229227769451
+	  &lt;/p&gt;&lt;p&gt;
+	  ~Owly
+	  </description>
+      <enclosure url="https://neozones.club/~owly/rss/img/doggies.png" length="{:length=&gt;1194109}" type="image/png"/>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <pubDate>Sun, 31 May 2020 07:36:39 +0000</pubDate>
+      <description>Why hello there, this is my first post, please enjoy a photo of one of my dogs, Rue!
+	  &lt;/p&gt;&lt;p&gt;
+	  ~Owly</description>
+      <enclosure url="https://neozones.club/~owly/rss/img/rue_20190811.jpg" length="{:length=&gt;1194109}" type="image/png"/>
+    </item>
+  </channel>
+</rss>

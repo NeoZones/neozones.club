@@ -1,0 +1,43 @@
+/*CSS Reset by Jason Knight (cutcodedown.com)*/
+address,blockquote,body,caption,div,dl,fieldset,form,h1,h2,h3,h4,h5,h6,hr,html,
+img,li,p,ol,table,td,th,tr,ul{margin:0;padding:0}fieldset,img{border:none}
+
+/*Screw your bilinear bullshit, let's peep those pixels*/
+img{max-width:100%;vertical-align:text-bottom;image-rendering:-o-crisp-edges
+;-ms-interpolation-mode:nearest-neighbor;image-rendering:-webkit-crisp-edges
+;image-rendering:-moz-crisp-edges;image-rendering:pixelated}
+
+/*Spiffy Corners by Greg Johnson (ca.2006-03)*/
+.sc *{height:1px;overflow:hidden;font-size:.01ex;background:#303844}
+.sc,.sc *{display:block}.sc1,.sc2,.sc3,.sc4,.sc5{border-width:0 1px;border:solid}
+.sc1,.sc2{padding:0 1px}.sc2,.sc3{margin:0 1px}.scfg{background:#303844;padding:0 2ex}
+.sc1{margin:0 3px;border:#202431;background:#292f3b}.sc3{border:#2a313d}
+.sc2{border:#171826;background:#2a313d}.sc4{border:#202431}.sc5{border:#292f3b}
+
+/*On to the main MothZone styling*/
+body{background:#151523;color:#FFF;font:normal 100%/115% Arial,sans-serif}
+body,h1,.ac{text-align:center}
+blockquote{margin:1ex;padding:0 2ex;border-left:0.2ex solid #404955}
+h1{font-variant:small-caps}
+p,h2,h3{padding:2ex 0 0 0}
+ul{list-style:square}li{margin:1ex 6ex}
+dl{padding:1ex 0}dt{margin:1ex 0 0 0}dt a{font:normal 2ex/2ex Arial,sans-serif}
+iframe{width:640px;height:360px}
+a:link{color:#ABD}a:visited{color:#78A}a:hover,a:focus{color:#CDF}a:active{color:#FFF}
+#main,#tau,iframe{max-width:720px;margin:0 auto;text-align:justify}
+#tau,.ar{text-align:right}#tau a:link{text-decoration:none;color:#512;cursor:help}
+
+/*shit.js related*/
+fieldset{border:0.2ex solid #679;padding:1ex;margin:2ex 0 0 0}
+legend a:link{color:#fff}legend a:visited{color:#ddd}
+legend{background:#679;padding:0.25ex 1ex;width:100%}
+.hide{border-color:#303844}.hide div{height:0;overflow:hidden}.show div{height:auto}
+button{display:none}.js button{display:inline;cursor:pointer}
+
+/*lightbox.js related*/
+#shadowing{display:none;position:absolute;top:0;left:0;width:100%;height:100%;
+background:url('dither.gif');z-index:10;opacity:0.5;filter:alpha(opacity=50)}
+#box{display:none;position:absolute;top:20%;left:20%;width:60%;height:60%;
+padding:0;margin:0;border:2ex solid #eee;background:#aaa;z-index:11}
+#boxcontent{left:0;right:0;bottom:0;margin:0;padding:4ex;overflow:auto;
+width:100%;height:100%}

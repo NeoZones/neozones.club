@@ -1,0 +1,53 @@
+/* Font used is called "Drogowskaz", and was made by the Polish Government  */
+
+@font-face {
+   font-family: Drogowskaz;
+    src: url("https://neozones.neocities.org/common/fonts/Drogowskaz.ttf");
+	}
+
+body {
+background-color:#D0B7DF;
+background-image: url("https://neozones.neocities.org/art/bricks.png");
+color:#5B378B;
+font-family: "Drogowskaz";
+}
+
+/* unvisited link */
+a:link {
+    color: #A17FFF;
+}
+
+/* visited link */
+a:visited {
+    color: #77478E;
+}
+
+/* mouse over link */
+a:hover {
+    color: #5E4B96;
+}
+
+/* selected link */
+a:active {
+    color: #82415D;
+}
+
+nav.SideNav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+}
+body.SideNav {
+  background-color: #cdcdcd;
+  padding-top: 20px;
+  margin: 0;
+}
+nav.SideNav iframe {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+nav + .maincontainer { margin-left: 150px; }

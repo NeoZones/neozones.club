@@ -1,0 +1,11 @@
+/* Font used is called "Drogowskaz", and was made by the Polish Government */
+@font-face{font-display:swap;font-family:'Drogowskaz';src:local('Drogowskaz'),
+url(https://owlman.neocities.org/fonts/Drogowskaz.ttf)format('truetype')}
+body{background:#D0B7DF url(bricks.png);color:#5B378B;margin:0
+;font-family:'Drogowskaz',sans-serif}
+a:link{color:#A17FFF}
+a:visited{color:#77478E}/*was d67fff*/
+a:hover,a:focus{color:#5E4B96}/*was ff7fed*/
+a:active{color:#82415D}/*was ff7fb6*/
+.ac{text-align:center}
+#full{width:100%;height:100%}

@@ -1,0 +1,23 @@
+/* Font used is called "OpenDyslexic" */
+
+@font-face {
+	font-family: OpenDyslexic;
+	src: url(/~owly/OpenDyslexic-Regular.otf);
+}
+body {
+	font-family: "OpenDyslexic";
+	color: #7F92FF;
+	background-color: #000;
+}
+a:link, a:visited {
+	color: #D67FFF
+}
+a:active, a:active:visited {
+	color: #A17FFF;
+}
+a:hover, a:hover:visited {
+	color: #FF7FB6;
+}
+a:hover:active, a:hover:active:visited {
+	color: #FF7FED;
+}

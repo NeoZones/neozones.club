@@ -1,0 +1,69 @@
+nav a span {
+  display: none;
+}
+
+nav a:hover span {
+  display: block;
+  top: 0; right: 0; width: 125px;
+  padding: 5px; margin: 10px;
+  color: #AAA; background: black;
+  font: 10px Verdana, sans-serif; 
+  text-align: center;
+}
+
+body {
+  background-color: #D0B7DF;
+  background-image: url("https://neozones.neocities.org/mail/img/bg.png");
+}
+  
+.divider {
+  padding-left: 8px;
+}
+.content {
+  background-color: white;
+  color: black;
+  font-family: Courier New;
+  max-width: 640px;
+  padding: 5px;
+  margin: 5px auto 5px auto;
+  box-sizing: border-box;
+  border-top: ridge 3px white;
+  border-left: ridge 3px white;
+  border-bottom: ridge 3px black;
+  border-right: ridge 3px black;
+  overflow: auto;
+}
+header {
+  /* grid-area: header; */
+  height: 100px;
+  text-rendering: geometricPrecision;
+  background: url('https://neozones.neocities.org/mail/img/banner.png');
+  margin-bottom: 10px;
+}
+/*
+footer {
+  grid-area: footer;
+}
+nav {
+  grid-area: nav;
+}
+main {
+  grid-area: main;
+}
+*/
+img {
+ max-width: 450px; 
+}
+.url {
+	font-family: monospace;
+}
+.center {
+ text-align: center; 
+}
+a {
+  color: #333; 
+}
+.selected {
+    border: 1px dashed;
+    pointer-events: none;
+}

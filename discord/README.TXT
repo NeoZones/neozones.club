@@ -1,0 +1,5 @@
+So before you go asking me "why have you made a new page that just redirects to the server?", let me answer that; I recommend that when you link to a server, you use the https://neozones.neocities.org/discord/example.html rather than the https://discord.gg/example one, simply because the discord.gg links can be effected by link rot. So when you link to X server, don't put the direct URL unless you're only going to link to it once, as you will need to fix many links, while if a link breaks, we only need to fix the https://neozones.neocities.org/discord/example.html page.
+
+I think that makes sense...
+
+tl;dr do this <a href="https://neozones.neocities.org/discord/example.html">link</a> rather than this <a href="https://discord.gg/example">link</a> simply because link rot could effect many links VS only a few.

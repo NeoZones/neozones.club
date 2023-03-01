@@ -1,0 +1,1 @@
+document.write('<div class="nav""><strong><a href="https://tehleroy.neocities.org">MAIN SITE</a> | <a href="https://neozones.neocities.org/tehleroy/kaomoji/">KAOMOJI</a> | <a title="Coming soon...">MINECRAFT</a> | <a title="Coming soon...">COPYPASTA</a></strong></div>')

@@ -1,0 +1,35 @@
+/* Font used is called "OpenDyslexic" */
+
+@font-face {
+   font-family: OpenDyslexic;
+   src: url(OpenDyslexicMono-Regular.otf);
+}
+
+html { -webkit-font-smoothing: none; }
+
+body {
+    background-image: url('background.png'); 
+	font-size: 13px;
+	font-family: "OpenDyslexic";
+    letter-spacing: 0;
+	line-height: 1.4;
+    color: #FFFFFF; }
+	
+.box {
+    background-color: #000;
+	width: 800px;
+	margin: 0 auto;
+    border: 10px outset #7F92FF; 
+	color: #7F92FF; }
+	
+.text { margin: 25px; }
+
+a:link, a:visited { color: #D67FFF }
+a:active, a:active:visited { color: #A17FFF; }
+a:hover, a:hover:visited { color: #FF7FB6; }
+a:hover:active, a:hover:active:visited { color: #FF7FED; } 
+
+blockquote {
+	border-left: 0.2em solid #FFFFFF; 
+	padding-left: 0.3em; 
+	font-style: italic; }

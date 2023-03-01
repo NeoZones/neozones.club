@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>404</title>
+    <link rel="icon" href="/~moss/rsrc/icon.png"/>
+
+	<style>
+body {
+	width: 654px;
+	height: 415px;
+	background-color: #000000;
+	padding: 10% auto auto auto;
+	animation-name: bg;
+	animation-duration: 1s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	background-image: url(/~moss/rsrc/404a.gif);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+@keyframes bg {
+  from {background-image: url(/~moss/rsrc/404a.gif);}
+  to {background-image: url(/~moss/rsrc/404b.gif);}
+}
+	</style>
+
+    <script>
+    // check it out ma i stole shit from stackoverflow :D
+     document.onkeydown = function(e){ 
+   if (window.event.keyCode == 89) {
+      history.go(-1);
+   }
+};
+    </script>
+
+<body>
+</body>
+</html>

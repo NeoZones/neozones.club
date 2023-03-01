@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta property="og:title" content="NeoZones">
+  <meta property="og:image" content="https://neozones.neocities.org/neocities.png">
+  <meta property="og:url" content="https://neozones.neocities.org">
+  <meta property="og:type" content="website">
+  <meta name="twitter:title" content="NeoZones">
+  <meta name="description" content="NeoZones: Because Why not?">
+  <title>NeoZones Version 1 | NEOZONES</title>
+  <link rel="icon" type="image/png" href="https://neozones.neocities.org/favicon.ico">
+  <link href="https://neozones.neocities.org/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+  <header><a href="https://neozones.neocities.org/people/"><img src="https://neozones.neocities.org/common/header.png" alt=""></a></header>
+  <div class="marquee"><marquee><script src="https://neozones.neocities.org/marquee.js"></script></marquee></div>
+  <main>
+    <div class="left">
+	  <center>
+	  <hr>
+	  <p style="text-align: left; margin: 0 0 0 2px;">THE VICTIMS</p>
+	  <a href="https://neozones.neocities.org/ricky/"><div class="b ricky"><img style="width: 140px;" src="https://neozones.neocities.org/common/b_ricky.png" alt=""></a></div>
+	  <a href="https://neozones.neocities.org/emily/"><div class="b emily"><img style="width: 140px;" src="https://neozones.neocities.org/common/b_emily.png" alt=""></a></div>
+	  <a href="https://neozones.neocities.org/nekojiru/"><div class="b nekojiru"><img style="width: 140px;" src="https://neozones.neocities.org/common/b_nekojiru.png" alt=""></a></div>
+	  <a href="https://neozones.neocities.org/owlman/"><div class="b owlman"><img style="width: 140px;" src="https://neozones.neocities.org/common/b_owlman.png" alt=""></a></div>
+	  <a href="https://neozones.neocities.org/tehleroy/"><div class="b tehleroy"><img style="width: 140px;" src="https://neozones.neocities.org/common/b_tehleroy.png" alt=""></a></div>
+	  <!-- <a href="/bytemoth/"><div class="b bytemoth"><img style="width: 140px;" src="https://neozones.neocities.org/common/b_bytemoth.png"></a></div> -->
+	  <hr>
+	  <p style="text-align: left; margin: 0 0 0 2px;">STUFF WE MAKE</p>
+	  <a href="https://neozones.neocities.org/cult/"><div class="b"><img style="width: 140px;" src="https://neozones.neocities.org/common/b_cult.png"></a></div>
+	  <hr>
+	</div>
+	<div class="right">
+	  <!-- Content here -->
+	Version 1 of the NeoZones site was made by <a href="https://neozones.neocities.org/owlman">OwlMan</a>, however, the site layout was based off their own website, <a href="https://owlman.neocities.org">owlman.neocities.org</a> and is now outdated. This is only here for historical interest and should not be used.
+	<p>
+	The base for the site layout is found <a href="base.html">here</a>, see it at your own risk.
+	  <!-- End of content-->
+	</div>
+  </main>
+  <footer>
+    <p style="margin: 5px">&copy; <strong>2019 - <script type="text/javascript">document.write(new Date().getFullYear());</script></strong> NeoZones | This is a web collective made by these idiots.</p>
+	<p style="margin: 5px;">
+	<a href="https://owlman.neocities.org"><img src="https://neozones.neocities.org/common/owlman.gif" width="88" height="31" alt="owlman"></a>
+	<a href="https://nekojiru.neocities.org"><img src="https://neozones.neocities.org/common/nekojiru.gif" width="88" height="31"  alt="nekojiru"></a>
+	<a href="https://tehleroy.neocities.org"><img src="https://neozones.neocities.org/common/tehleroy.gif" width="88" height="31" alt="tehleroy"></a>
+	<a href="https://chameleon.neocities.org"><img src="https://neozones.neocities.org/common/chameleon.gif" width="88" height="31" alt="chameleon"></a>
+	<!-- <a href="http://cd5k.net/" target="_parent"><img src="https://neozones.neocities.org/common/cd5k.png" width="88" height="31"  alt="bytemoth"></a> -->
+	</p>
+  </footer>
+  
+  <!--
+  So for the people who do not know what the following JavaScript does, here is a breakdown; In older browsers such as Netscape and even in SeaMonkey, there is a status bar at the bottom of the page, the function of this bar differs from browser to browser, but what most of them have in common is that, if the option is put in place, then they will show a custom message that will scroll from right to left, in this case, the message will read "NeoZones: Because Why Not?"
+  Here is a screenshot of the scrollbar in action: https://neozones.neocities.org/template/why_not.png
+  -->
+  <script language="JavaScript">
+    var MessageText = "NeoZones: Because Why Not?"
+	var DisplayLength = 130
+	var pos = 1 - DisplayLength;
+	function ScrollInStatusBar(){
+	var scroll = "";
+	pos++;
+	if (pos == MessageText.length) pos = 1 - DisplayLength;
+	if (pos<0)
+	{
+	  for (var i=1; i<=Math.abs(pos); i++)
+      scroll = scroll + " ";
+	  scroll = scroll + MessageText.substring(0, DisplayLength - i + 1);
+	}
+	else
+      scroll = scroll + MessageText.substring(pos, pos + DisplayLength);
+	  window.status = scroll;
+	  // Scrolling speed
+	  setTimeout("ScrollInStatusBar()",50);
+	}
+    ScrollInStatusBar()
+	//-->
+  </script>
+  
+ </body>
+ </html>

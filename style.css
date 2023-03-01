@@ -1,0 +1,178 @@
+@import 'normalize.css';
+/*     s.                      .s5SSSSs.                                         
+       SS. .s5SSSs.  .s5SSSs.        SSS .s5SSSs.  .s    s.  .s5SSSs.  .s5SSSs.  
+ sSs.  S%S       SS.       SS.      sSS        SS.       SS.       SS.       SS. 
+ SS`S. S%S sS    `:; sS    S%S     sSS   sS    S%S sSs.  S%S sS    `:; sS    `:; 
+ SS `S.S%S SSSs.     SS    S%S    sSS    SS    S%S SS `S.S%S SSSs.     `:;;;;.   
+ SS  `sS%S SS        SS    S%S   sSS     SS    S%S SS  `sS%S SS              ;;. 
+ SS    `:; SS        SS    `:;  sSS      SS    `:; SS    `:; SS              `:; 
+ SS    ;,. SS    ;,. SS    ;,. sSS       SS    ;,. SS    ;,. SS    ;,. .,;   ;,. 
+ :;    ;:' `:;;;;;:' `:;;;;;:' `:;;;;;:' `:;;;;;:' :;    ;:' `:;;;;;:' `:;;;;;:' 
+
+        Owly * Nekojiru * Evan * Bytemoth * Pizza Squeeze * Hexo * Spoopz
+                 Master CSS File of Maximum Friendship 2020.05.24
+
+ CSS RESET BY JASON KNIGHT
+ http://www.cutcodedown.com/article/whats_wrong_with_YOUR_website_part4#section_4_2a */
+address,blockquote,body,caption,div,fieldset,form,h1,h2,h3,h4,h5,h6,hr,html,
+img,li,p,ol,table,td,th,tr,ul{margin:0;padding:0}fieldset,img{border:none}
+img{max-width:100%}nav,aside,header,footer,figure,figcaption,main{display:block}
+
+
+/* FONTS AND BACKGROUND
+ The font used on NeoZones is called "Drogowskaz" (meaning "Roadsign" in
+ Polish), the font was made by the Polish Ministry of Transportation. The
+ version of the font used on this site was made by Emil Wojtacki.
+
+ If you have any issues in viewing the font (for example: some letters may
+ not appear like in this screenshot
+ https://neozones.club/common/font_issue.png), then re-download the
+ font onto your computer, installing it, hopefully then there should be no
+ issues - if there are, please tell us!
+
+ More information about fonts used on NeoZones can be fount at this URL
+ https://neozones.club/common/fonts/
+
+ This part of the code also has the part that controls the background image.
+ Sometimes for special events (Christmas, Halloween), we may change the
+ image, in cases like that, mess around with the line that looks like
+ this; body{background:#10071E url(/common/bricks.png);color:#9242ff;
+ 
+ Semi-related, but if you want to change the header banner on the site (the
+ one that says "NeoZones" on with Ricky), then you will need to go to
+ /common/ and upload the new banner to
+ the file called "header.png". Do not edit header_normal.png, also make sure
+ that the new banner that up upload is 800 x 150! */
+@font-face{font-display:swap;font-family:'Drogowskaz';src:local('Drogowskaz'),
+url(common/fonts/drogowskaz.woff2)format('woff2'),
+url(common/fonts/drogowskaz.woff)format('woff'),
+url(common/fonts/Drogowskaz.ttf)format('truetype')}
+body{background:#10071E url(/common/bricks.png);color:#9242ff;
+font-family:'Drogowskaz',sans-serif;-webkit-font-smoothing:none}
+a:link{color:#A17FFF}a:visited{color:#d200ff}a:hover,a:focus{color:#ff006d}
+a:active{color:#ff00c0}
+#full{width:100%;height:100%}
+h1,header,footer,nav,.ac,#nm,#footer{text-align:center}
+header,footer,main,marquee,.left{background:#000}
+footer img{width:88px;height:31px}
+marquee,footer p,h1,.nm,#nm{margin:0}
+
+
+/* PURPLE CUSTOM SCROLLBAR
+ This scrollbar will only work on Google Chrome and Apple's Safari.
+ Simply put, what it will do is change the normal scrollbar (the one on your
+ right) from the default to purple. Here is what it looks like on Chrome:
+ https://neozones.club/common/bar_on_chrome.png 
+
+ If you like, feel free to add a purple sidebar than will be able to work on
+ other browsers. */
+::-webkit-scrollbar{width:16px}
+::-webkit-scrollbar-track{background:#2D1C3C;border-radius:0}
+::-webkit-scrollbar-thumb{background:#5B378B;border-radius:0}
+
+
+/* /misc/attic/ */
+#nm{font-size:1.5em}
+dt{margin:1em 0 0 0}
+
+
+/* /comic/ */
+blockquote{margin:16px 48px}
+
+
+/* /discord/ */
+ol li{margin:0 2em}
+ul li{margin:0 0 1em 1em}
+
+
+/* /cult/
+#cult table{border-collapse:collapse}
+#cult tr:nth-child(odd){background:#d0b7df}
+#cult td,th{text-align:left;padding:8px;vertical-align:top}
+#cult ul li{margin:0 0 0 1em}
+<table> replaced with <dl> */
+#cult h1 img{filter:drop-shadow(5px 5px 2px #231537)}
+#cult dd:before{content:"\2022\a0"}
+#cult dt,#pressf dt{font-size:1.5em}
+
+
+/* /people/ */
+article,p{margin:1em 0}
+article,article+br,.fc{clear:both}
+h2{margin:2em 0 0 0}
+marquee,nav,#pressf dt{font-weight:bold}
+.fl{float:left}.fr{float:right}.fl,.fr{margin:5px 15px}
+#bytemoth{text-align:justify}
+#tehleroy img,.pixels{image-rendering:pixelated;image-rendering:-moz-crisp-edges}
+#tau{text-align:right;color:#000}
+#tau a:link{text-decoration:none;cursor:help;color:#215}
+
+
+/* LAYOUT SHENANIGANS */
+header,footer,main,#tau{width:800px;margin:0 auto}
+.js main{display:table}.js .left,.js .right{display:table-cell;vertical-align:top}
+.js .right{width:615px}
+.js .left{width:145px;color:#5B378B}.left a{display:block}.left img{width:140px}
+.left hr{margin:5px;height:3px;border:1px solid #5B378B;border-width:1px 0}
+.left p{text-align:left;margin:0 0 0 2px}
+.left,footer p{padding:5px;font-size:13px}
+.right,noscript p{padding:15px;background:#5B378B;color:#fff}
+#left,#left iframe,#footer iframe{width:800px;border:0;height:300px}
+.js #left{width:155px}
+#footer{width:100%}
+#wwp{width:91px;height:100px;margin:1em auto}
+
+
+/* SIDEBAR BUTTON EFFECTS
+ This is for "THE VICTIMS" sidebar, as seen on the left. The
+ "(0 0 5px #XXXXXX)" part of the code determines the colour that will appear
+ once you hover your mouse over it. If your name is not listed, simply
+ follow this base;
+
+ .left a[href="/example/"]:hover{filter:drop-shadow(0 0 5px #XXXXXX)saturate(2)}
+
+ With the "example" being your folder name and the "#XXXXXX" being what
+ colour you want it to be. */
+.left a{margin:2px;transition:all 0.3s ease-in-out}
+.left a:hover{filter:drop-shadow(0 0 5px #9242FF)}
+.left a[href="/ricky/"]:hover{filter:drop-shadow(0 0 5px #B400FF)hue-rotate(360deg)brightness(1.5)}
+.left a[href="/emily/"]:hover{filter:drop-shadow(0 0 5px #FFCF4E)saturate(3)brightness(1.5)}
+.left a[href="/nekojiru/"]:hover{filter:drop-shadow(0 0 5px #FF00FF)brightness(1.2)}
+.left a[href="/owlman/"]:hover{filter:drop-shadow(0 0 5px #69FF69)brightness(1.2)}
+.left a[href="/tehleroy/"]:hover{filter:drop-shadow(0 0 5px #66CCCC)saturate(3)}
+.left a[href="/bytemoth/"]:hover{filter:drop-shadow(0 0 5px #FFFFFF)saturate(2)}
+/*need more effects for the new members*/
+
+
+/* RESPONSIVE LAYOUT FOR MOBILE LUSERZ
+ If you (someone who is developing NeoZones) do not have a mobile on hand to
+ test this out, you can recreate the mobile look by making your web browser
+ half the size than what it should be, like in this screenshot:
+ https://neozones.club/common/half_the_size.png */
+@media(max-width:816px){.fl,.fr{display:block;float:none;margin:0 auto}
+header,footer,main,.js main,.right,.js .right
+,.left,#left,.js .left,.js #left,#left iframe
+,#footer iframe,#tau,blockquote{display:block;width:100%;margin:0;padding:0}
+.right,.js .right{width:96%;padding:2%}
+.left a{display:inline-block;width:30%;margin:0}
+.left,.left p,.left a,h2{text-align:center}
+.js #left{height:auto}
+}
+
+
+/* PLEASE ADD NEW SHIT BELOW THIS LINE so i can fix it up if needed ~bytemoth 
+
+ Why won't my code work?!?!
+             o
+             o
+      //@@  o
+     @@ \/
+    @@@ ^ @   _____
+   /  \ / \  |\____\
+  /  ( X ) | | |   |
+ <___=\      | |   |
+     \======\ \|_"_|
+                 (____
+
+ ASCII by Mariza Cabral
+ http://ascii-art.de/ascii/c/computer.txt  */

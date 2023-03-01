@@ -1,0 +1,107 @@
+html { 
+    -webkit-font-smoothing: none;
+	overflow-y: scroll;
+}
+ /* Font used is called "Drogowskaz", and was made by the Polish Government  */
+@font-face {
+    font-family: "Drogowskaz";
+    src: url("/common/fonts/Drogowskaz.ttf");
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #10071E;
+	background-image: url("common/bricks.png");
+    color: #9242FF;
+    font-family: Drogowskaz, Georgia;
+    font-size: 16px;
+}
+	
+header {
+	margin-top: 10px;
+    width: 800px;
+    height: 150px;
+    text-align: center;
+}
+
+.marquee {
+	margin: 0;
+	padding: 3px;
+	height: 20px;
+	background-color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main {
+	display: flex;
+	flex-wrap: nowrap;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left {
+	padding: 5px;
+    float: left;
+    width: 145px;
+    background-color: #000000;
+    color: #5B378B;
+    font-size: 13px;
+}
+
+.left hr {
+    margin: 5px 5px;
+    border: 0;
+    border-top: 1px solid #5B378B;
+    height: 2px;
+    border-bottom: 1px solid #5B378B;
+}
+
+.b {
+    margin: 2px; 
+    transition: all 0.3s ease-in-out;
+}
+
+.b:hover { filter: drop-shadow(0 0 5px #9242FF); }
+.ricky:hover { filter: drop-shadow(0 0 5px #B400FF) hue-rotate(360deg) brightness(1.5); }
+.emily:hover { filter: drop-shadow(0 0 5px #FFCF4E) saturate(3) brightness(1.5); }
+.nekojiru:hover { filter: drop-shadow(0 0 5px #FF00FF) brightness(1.2); }
+.owlman:hover { filter: drop-shadow(0 0 5px #69FF69) brightness(1.2);}
+.tehleroy:hover { filter: drop-shadow(0 0 5px #66CCCC) saturate(3); }
+.bytemoth:hover { filter: drop-shadow(0 0 5px #FFFFFF) saturate(2); }
+
+.right {
+	float: right;
+	width: 100%;
+	padding: 15px;
+	background-color: #5B378B;
+    color: #FFFFFF;
+	z-index: 1;
+}
+
+footer {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 780px;
+	position: absolute;
+    white-space: nowrap;
+    background-color: #000000;
+	color: #5B378B;
+	text-align: center;
+	font-size: 13px;
+}
+
+a:link { color: #A17FFF; }
+a:visited { color: #D200FF; }
+a:hover { color: #6D00FF; }
+a:active { color: #FF00C0; }
+
+/* CUSTOM SCROLLBAR (Chrome and Safari users only) */
+
+::-webkit-scrollbar { width: 16px }
+
+::-webkit-scrollbar-track{ background: #2D1C3C; border-radius: 0px }
+
+::-webkit-scrollbar-thumb{ background: #5B378B; border-radius: 0px }

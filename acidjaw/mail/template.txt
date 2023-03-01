@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang=en><head><meta charset="utf-8">
+<title itemprop=name property="og:title">AcidMail xxx :: AcidJaw</title>
+<link rel=icon href="/acidjaw/favicon.png">
+<meta name=description itemprop=description property="og:description" content="Dance with the devil, sell your soul, and read AcidJaw!">
+<meta name=keywords           content="mag, magazine, acid, jaw, acid jaw, neozones, neocities, news, weird, why the hell not?">
+<meta property="og:site_name" content="AcidJaw | neozones.club">
+<meta property="og:type"      content="website">
+<meta property="og:image"     content="https://neozones.club/acidjaw/acidjaw.png">
+<meta property="og:url"       content="https://neozones.club/acidjaw">
+<meta name=referrer           content="no-referrer-when-downgrade">
+<link rel=stylesheet href="../../style.css">
+</head><body><div class="content"><header><a href="/acidjaw/"></a></header><nav>
+ <a href="/acidjaw/time/">Time Machine</a> <a href="/acidjaw/ppl/">PPL</a>
+ <a href="/acidjaw/culture/">Culture</a> <a href="/acidjaw/mail/">AcidMail</a>
+ <a href="/acidjaw/tech/">Tech</a> <a href="/acidjaw/acidjaw/">AcidJaw</a></nav>
+<main><pre>  _______      __    __ ___ ___       __ __ 
+ |   _   .----|__.--|  |   Y   .---.-|__|  |
+ |.  1   |  __|  |  _  |.      |  _  |  |  |
+ |.  _   |____|__|_____|. \_/  |___._|__|__|
+ |:  |   |             |:  |   |            
+ |::.|:. |             |::.|:. | Issue xxx
+ `--- ---'             `--- ---' YYYY-MM-DD
+
+-------------------------------------------------
+
+NEWSLETTER: Title
+<a href="https://neozones.neocities.org/acidjaw/mail/issue???">https://neozones.neocities.org/acidjaw/mail/issue???</a>
+
+This issue we have:
+* Put a short description of what is in this issue
+* Also here
+* Oh, and here
+
+-------------------------------------------------
+
+>TITLE
+Fill this part with anything interesting you have
+to tell our reader here.
+
+-------------------------------------------------
+
+>TITLE
+Fill this part with anything interesting you have
+to tell our reader here.
+
+-------------------------------------------------
+
+>ASCII OF THE NOW
+The ASCII of The Now is a weekly thing we do
+where we dig threw the old archives of forgotten
+websites, finding ASCII art that time forgot.
+
+[ASCII goes here, make sure it fits!]
+
+Write about the ASCII art you have found here.
+
+ASCII goes here, make sure you credit whoever
+made the art, buy browsing OwlMan's Who is Who in
+ASCII Art page, and anchor their URL below, also
+put a link to where you found the art from.
+
+<a href="https://owlman.neocities.org/ascii.html#???">https://owlman.neocities.org/ascii.html#???</a>
+<a href="https://example.com">https://example.com</a>
+
+-------------------------------------------------
+
+>CHECK THIS SHIT OUT!
+They say looking at TV will turn your eyes
+square, that never happened to anyone we know, so
+we guess that it would be fine to also browse the
+web for 23-hours-a-day, Hell, if it won't for us
+browsing the web so much, how would we have found
+all of these links? Got you there, mom and dad!
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+: TITLE
+: <a href=""></a>
+
+Write about anything you like here, such as
+music, a news event, a TV event, or anything you
+learnt.
+
+-------------------------------------------------
+
+>UNTIL NEXT TIME
+AcidMail would not be possible if it won't for
+the cocky people over at NeoZones, one of the
+worst s0-called "webhome". To browse more bad
+ideas by the NeoZone losers, check out their URL
+over at: <a href="https://neozones.neocities.org">https://neozones.neocities.org</a>
+
+Do you have anything that you want to see in next
+week's issue of AcidMail? Is it a link, a
+comment, a short story, or some art? Well
+whatever it is, E-Mail it to us, and we will
+probably put it on the next issue (with
+credit, of cause!)
+
+If you have any questions, comments, or anything
+in between, please don't hesitate to E-Mail us!
+</pre>
+			</main>
+		<footer>
+			<hr>
+			<p></p>
+			AcidJaw is made by <a href="https://neozones.neocities.org/people/">NeoZones</a>: Because Why Not?<br>
+		</footer>
+	</div>
+</body>
+</html>

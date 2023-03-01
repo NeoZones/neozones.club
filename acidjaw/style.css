@@ -1,0 +1,111 @@
+/* WARNING: Keep this file far away from Owly as they are fucking dumb! */
+
+  /*|_|              _|        _|        _|                                
+ _|    _|    _|_|_|        _|_|_|        _|    _|_|_|  _|      _|      _|  
+ _|_|_|_|  _|        _|  _|    _|        _|  _|    _|  _|      _|      _|  
+ _|    _|  _|        _|  _|    _|  _|    _|  _|    _|    _|  _|  _|  _|    
+ _|    _|    _|_|_|  _|    _|_|_|    _|_|      _|_|_|      _|      _*/
+
+nav a span{
+  	display: none
+  }
+nav a:hover span{
+  	display: block;
+  	top: 0;
+  	right: 0;
+  	width: 125px;
+  	padding: 5px;
+  	margin: 10px;
+  	color: #AAA;
+  	background: #000;
+  	font: 10px Verdana, sans-serif;
+  	text-align: center
+  }
+body{
+  	background: #5B272B url(background4.png)
+  }
+.divider{
+  	padding-left: 8px
+  }
+.content{
+  	background: #fff url(white.png);
+  	max-width: 640px;
+  	padding: 5px;
+  	margin: 5px auto;
+  	box-sizing: border-box;
+  	border: ridge 3px #fff;
+  	border-color: #fff #fff #000 #000;
+  	overflow: auto
+  }
+header a{
+  	/*grid-area:header;*/
+  	height: 100px;
+  	text-rendering: geometricPrecision;
+  	background: url(banner.png);
+  	margin: 0 0 10px;
+  	display: block
+  }
+/*footer{grid-area:footer}
+nav{grid-area:nav}
+main{grid-area:main}*/
+img{
+  	max-width: 450px
+  }
+.url{
+  	font-family: monospace
+  }
+.center{
+  	text-align: center
+  }
+a{
+  	color: #333
+  }
+nav a{
+  	display: inline-block;
+  	padding: 0 10px
+  }
+.selected{
+  	border: 1px dashed;
+  	pointer-events: none
+  }
+table{
+  	border-collapse: collapse
+  }
+td,th{
+  	text-align: left;
+  	padding: 8px;
+  	vertical-align: top
+  }
+tr:nth-child(even){
+  	background: #489573;
+  /*was #375984 - contrast too low*/
+  }
+/* Nicked this part from Radny's own CSS */
+blockquote {
+	border-left: 0.2em solid #38181B; 
+	padding-left: 0.3em; 
+}
+centre {
+    text-align: center;
+}
+
+
+/*Added by Bytemoth*/
+main{overflow-wrap:break-word}pre{overflow:hidden}
+dt{margin:1em 0 0 0;font-weight:bold}dd{margin:0 1em}
+.list dd:before{content:"*\a0"}
+iframe{margin:0 auto}
+blockquote,li{margin:1em 0}
+abbr{border-bottom:1px dotted black;cursor:help}
+.red{color:red}.blue{color:blue}.green{color:green}
+
+/*#fun with fonts*/
+@font-face{font-display:swap;font-family:'Overpass';src:local('Overpass'),
+url(Overpass_Regular.ttf)format('truetype')}
+@font-face{font-display:swap;font-family:'Unifont CSUR';src:local('Unifont CSUR'),
+url(unifont_csur-12.1.04.ttf)format('truetype')}
+.content{font-family:'Unifont CSUR','Overpass',Arial,Tahoma,sans-serif}
+
+@font-face{font-display:swap;font-family:'Unifont JP';src:local('Unifont-JP'),
+url(unifont_jp-12.1.04.ttf)format('truetype')}
+pre,xmp,tt{font-family:'Unifont JP',Courier,monospace}

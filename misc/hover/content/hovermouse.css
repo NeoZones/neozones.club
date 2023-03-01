@@ -1,0 +1,636 @@
+/* add wattsapp to teh proticial list */
+/*                                                                                        */
+/* Name: HoverMouse                                                                       */
+/* For what website(s): Every website                                                     */
+/* URL: https://neozones.club/misc/hover/content/                                         */
+/* Test page: https://neozones.club/misc/hover/content/test.html                          */
+/*                                                                                        */
+/* With thanks to Pizza Squeeze (https://pizzalair.neocities.org) for informing me of any */
+/* missing file types I might have missed - you should checkout his site!                 */
+/*                                                                                        */
+/* Also, thank you to BytemothOwns for helping me fix some code - you're a lifesaver!     */
+/* Please go to their website https://cd5k.net                                            */
+/*                                                                                        */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/* E-Mail */
+a[href*="mailto:"]:hover, a[href*="mailserver:"]:hover, a[href*="MAILTO:"]:hover, a[href*="MAILSERVER:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/mail.png"), pointer;
+}
+
+/* Telegram */
+a[href*="tg:"]:hover, a[href*="TG:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/tg.png"), pointer;
+}
+
+/* Gopher */
+a[href*="gopher:"]:hover, a[href*="GOPHER:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/gopher.png"), pointer;
+}
+
+/* AIM (RIP) */
+a[href*="aim:"]:hover, a[href*="AIM:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/aim.png"), pointer;
+}
+
+/* XMPP */
+a[href*="xmpp:"]:hover, a[href*="XMPP:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/xmpp.png"), pointer;
+}
+
+/* Usenet */
+a[href*="news:"]:hover, a[href*="NEWS:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/news.png"), pointer;
+}
+
+/* Skype */
+a[href*="skype:"]:hover, a[href*="callto:"]:hover, a[href*="SKYPE:"]:hover, a[href*="CALLTO:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/skype.png"), pointer;
+}
+
+/* FISH */
+a[href*="fish:"]:hover, a[href*="FISH:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/fish.png"), pointer;
+}
+
+/* about */
+a[href*="about:"]:hover, a[href*="ABOUT:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/about.png"), pointer;
+}
+
+/* Finger protocol */
+a[href*="finger:"]:hover, a[href*="FINGER:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/finger.png"), pointer;
+}
+
+/* Feed */
+a[href*="feed:"]:hover, a[href*="FEED:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/rss.png"), pointer;
+}
+
+/* ICQ chat */
+a[href*="icq:"]:hover, a[href*="ICQ:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/icq.png"), pointer;
+}
+
+/* Mozilla/Firefox Add-on */
+a[href*="moz-extension:"]:hover, a[href*="MOZ-EXTENSION:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/xpi.png"), pointer;
+}
+
+/* Telnet */
+a[href*="telnet:"]:hover, a[href*="TELNET:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/telnet.png"), pointer;
+}
+
+/* Yahoo! (Thank you for closing GeoCities) */
+a[href*="yahoo:"]:hover, a[href*="YAHOO:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/yahoo.png"), pointer;
+}
+
+/* Discord */
+a[href*="discord:"]:hover, a[href*="DISCORD:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/discord.png"), pointer;
+}
+
+/* IRC chat */
+a[href*="irc:"]:hover , a[href*="ircs:"]:hover,  a[href*="irc6:"]:hover, a[href*="IRC:"]:hover , a[href*="IRCS:"]:hover,  a[href*="IRC6:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/irc.png"), pointer;
+}
+
+/* Magnet */
+a[href*="magnet:"]:hover, a[href*="MAGNET:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/magnet.png"), pointer;
+}
+
+/* Google Chrome */
+a[href*="chrome:"]:hover, a[href*="chrome-extension:"]:hover, a[href*="CHROME:"]:hover, a[href*="CHROME-EXTENSION:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/chrome.png"), pointer;
+}
+
+/* Geo URI */
+a[href*="geo:"]:hover, a[href*="GEO:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/geo.png"), pointer;
+}
+
+/* FaceTime */
+a[href*="facetime:"]:hover, a[href*="FACETIME:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/facetime.png"), pointer;
+}
+
+/* FAX */
+a[href*="fax:"]:hover, a[href*="FAX:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/fax.png"), pointer;
+}
+
+/* Modem */
+a[href*="modem:"]:hover, a[href*="MODEM:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/modem.png"), pointer;
+}
+
+/* Videotex */
+a[href*="videotex:"]:hover, a[href*="VIDEOTEXT:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/videotex.png"), pointer;
+}
+
+/* TeamSpeak */
+a[href*="teamspeak:"]:hover, a[href*="TEAMSPEAK:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/teamspeak.png"), pointer;
+}
+
+/* Ventrilo */
+a[href*="ventrilo:"]:hover, a[href*="VENTRILO:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ventrilo.png"), pointer;
+}
+
+/* Telephone */
+a[href*="tel:"]:hover, a[href*="TEL:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/tel.png"), pointer;
+}
+
+/* Javascript */
+a[href$=".js"]:hover, a[href^="javascript:"]:hover, a[href$=".JS"]:hover, a[href^="JAVASCRIPT:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/js.png"), pointer;
+}
+
+/* Apple's iTunes (RIP) */
+a[href*="itmss:"]:hover, a[href*="ITMSS:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/itmss.png"), pointer;
+}
+
+/* Bitcoin */
+a[href*="btc:"]:hover, a[href*="BTC:"]:hover, a[href*="bitcoin:"]:hover, a[href*="BITCOIN:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/btc.png"), pointer;
+}
+
+/* Dogecoin, wow, such dead meme */
+a[href*="doge:"]:hover, a[href*="DOGE:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/doge.png"), pointer;
+}
+
+/* FTP */
+a[href*="ftp:"]:hover, a[href*="FTP:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ftp.png"), pointer;
+}
+
+/* Source file */
+a[href$=".aspx"]:hover, a[href$=".con"]:hover, a[href$=".mht"]:hover, a[href$=".psp"]:hover, a[href$=".xml"]:hover, a[href$=".xul"]:hover, a[href$=".xhtml"]:hover, a[href$=".xaml"]:hover, a[href$=".sgml"]:hover, a[href$=".arpa"]:hover, a[href$=".int"]:hover, a[href$=".mil"]:hover, a[href$=".mobi"]:hover, a[href$=".pro"]:hover, a[href$=".tel"]:hover, a[href$=".test"]:hover, a[href$=".example"]:hover, a[href$=".invalid"]:hover, a[href$=".localhost"]:hover, a[href$=".ASPX"]:hover, a[href$=".CON"]:hover, a[href$=".MHT"]:hover, a[href$=".PSP"]:hover, a[href$=".XML"]:hover, a[href$=".XUL"]:hover, a[href$=".XHTML"]:hover, a[href$=".XAML"]:hover, a[href$=".SGML"]:hover, a[href$=".ARPA"]:hover, a[href$=".INT"]:hover, a[href$=".MIL"]:hover, a[href$=".MOBI"]:hover, a[href$=".PRO"]:hover, a[href$=".TEL"]:hover, a[href$=".TEST"]:hover, a[href$=".EXAMPLE"]:hover, a[href$=".INVALID"]:hover, a[href$=".LOCALHOST"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/aspx.png"), pointer;
+}
+
+/* Torrent */
+a[href$=".torrent"]:hover, a[href$=".TORRENT"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/torrent.png"), pointer;
+}
+
+/* RSS feed */
+a[href$=".rss"]:hover, a[href$="rss.xml"]:hover, a[href$=".RSS"]:hover, a[href$="RSS.XML"]:hover, a[href$="rss.XML"]:hover, a[href$="RSS.xml"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/rss.png"), pointer;
+}
+
+/* Mozilla/Firefox Add-on */
+a[href$=".xpi"]:hover, a[href$=".XPI"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/xpi.png"), pointer;
+}
+
+/* PDF */
+a[href$=".pdf"]:hover, a[href$=".djvu"]:hover, a[href$=".PDF"]:hover, a[href$=".DJVU"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/pdf.png"), pointer;
+}
+
+/* Word doc */
+a[href$=".doc"]:hover, a[href$=".docx"]:hover, a[href$=".docm"]:hover, a[href$=".dot"]:hover, a[href$=".dotm"]:hover, a[href$=".dotx"]:hover, a[href$=".odt"]:hover, a[href$=".DOC"]:hover, a[href$=".DOCX"]:hover, a[href$=".DOCM"]:hover, a[href$=".DOT"]:hover, a[href$=".DOTM"]:hover, a[href$=".DOTX"]:hover, a[href$=".ODT"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/doc.png"), pointer;
+}
+
+/* Wolfenstein 3D/Wolf 3D */
+a[href$=".w3d"]:hover, a[href$=".wl6"]:hover, a[href$=".weap"]:hover, a[href$=".wl1"]:hover, a[href$=".wl3"]:hover, a[href$=".W3D"]:hover, a[href$=".WL6"]:hover, a[href$=".WEAP"]:hover, a[href$=".WL1"]:hover, a[href$=".WL3"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/w3d.gif"), pointer;
+}
+
+/* Excel doc */
+a[href$=".xls"]:hover, a[href$=".xlsx"]:hover, a[href$=".xlsm"]:hover, a[href$=".xla"]:hover, a[href$=".xlam"]:hover, a[href$=".xlt"]:hover, a[href$=".xltm"]:hover, a[href$=".xltx"]:hover, a[href$=".XLS"]:hover, a[href$=".XLSX"]:hover, a[href$=".XLSM"]:hover, a[href$=".XLA"]:hover, a[href$=".XLAM"]:hover, a[href$=".XLT"]:hover, a[href$=".XLTM"]:hover, a[href$=".XLTX"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/xls.png"), pointer;
+}
+
+/* PowerPoint doc */
+a[href$=".ppt"]:hover, a[href$=".pptx"]:hover, a[href$=".pptm"]:hover, a[href$=".pot"]:hover, a[href$=".potx"]:hover, a[href$=".potm"]:hover, a[href$=".pps"]:hover, a[href$=".PPT"]:hover, a[href$=".PPTX"]:hover, a[href$=".PPTM"]:hover, a[href$=".POT"]:hover, a[href$=".POTX"]:hover, a[href$=".POTM"]:hover, a[href$=".PPS"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ppt.png"), pointer;
+}
+
+/* TXT */
+a[href$=".txt"], a[href$=".wri"], a[href$=".rtf"], a[href$=".text"], a[href$=".ascii"], a[href$=".srt"], a[href$=".sub"]:hover, a[href$=".TXT"], a[href$=".WRI"], a[href$=".RTF"], a[href$=".TEXT"], a[href$=".ASCII"], a[href$=".SRT"], a[href$=".SUB"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/txt.png"), pointer;
+}
+
+/* Text file */
+a[href$=".ini"]:hover, a[href$=".inf"]:hover, a[href$=".cfg"]:hover, a[href$=".lng"]:hover, a[href$=".lang"]:hover, a[href$=".locale"]:hover, a[href$=".vlng"]:hover, a[href$=".INI"]:hover, a[href$=".INF"]:hover, a[href$=".CFG"]:hover, a[href$=".LNG"]:hover, a[href$=".LANG"]:hover, a[href$=".LOCALE"]:hover, a[href$=".VLNG"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ini.png"), pointer;
+}
+
+a[href$=".css"]:hover, a[href$=".CSS"]:hover{
+cursor:url("https://neozones.club/misc/hover/content/css.png"), pointer !important;}
+
+/* Archive file */
+a[href$=".zip"]:hover, a[href$=".rar"]:hover, a[href$=".cbr"]:hover, a[href$=".f"]:hover, a[href$=".cab"]:hover, a[href$=".arj"]:hover, a[href$=".lzh"]:hover, a[href$=".tar"]:hover, a[href$=".gz"]:hover, a[href$=".bz2"]:hover, a[href$=".ace"]:hover, a[href$=".uue"]:hover, a[href$=".jar"]:hover, a[href$=".7z"]:hover, a[href$=".gzip"]:hover, a[href$=".j"]:hover, a[href$=".tgz"]:hover, a[href$=".war"]:hover, a[href$=".y"]:hover, a[href$=".yz"]:hover, a[href$=".z"]:hover, a[href$=".sit"]:hover, a[href$=".ZIP"]:hover, a[href$=".RAR"]:hover, a[href$=".CBR"]:hover, a[href$=".F"]:hover, a[href$=".CAB"]:hover, a[href$=".ARJ"]:hover, a[href$=".LZH"]:hover, a[href$=".TAR"]:hover, a[href$=".GZ"]:hover, a[href$=".BZ2"]:hover, a[href$=".ACE"]:hover, a[href$=".UUE"]:hover, a[href$=".JAR"]:hover, a[href$=".7Z"]:hover, a[href$=".GZIP"]:hover, a[href$=".J"]:hover, a[href$=".TGZ"]:hover, a[href$=".WAR"]:hover, a[href$=".Y"]:hover, a[href$=".YZ"]:hover, a[href$=".Z"]:hover, a[href$=".SIT"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/zip.png"), pointer;
+}
+
+/* EXE */
+a[href$=".exe"]:hover, a[href$=".bin"]:hover, a[href$=".elf"]:hover, a[href$=".msi"]:hover, a[href$=".EXE"]:hover, a[href$=".BIN"]:hover, a[href$=".ELF"]:hover, a[href$=".MSI"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/exe.png"), pointer;
+}
+
+/* BMP Image */
+a[href$=".bmp"]:hover, a[href$=".BMP"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/bmp.png"), pointer !important;}
+}
+
+/* GIF */
+a[href$=".gif"]:hover, a[href$=".GIF"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/gif.png"), pointer !important;}
+}
+
+/* PNG */
+a[href$=".png"]:hover, a[href$=".PNG"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/png.gif"), pointer;
+}
+
+/* PCX */
+a[href$=".pcx"]:hover, a[href$=".PCX"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/pcx.png"), pointer;
+}
+
+/* JPEG */
+a[href$=".jpg"]:hover, a[href$=".jpeg"]:hover, a[href$=".JPG"]:hover, a[href$=".JPEG"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/jpg.png"), pointer;
+}
+
+/* Vector */
+a[href$=".eps"]:hover, a[href$=".epsf"]:hover, a[href$=".svg"]:hover, a[href$=".cdr"]:hover, a[href$=".dxf"]:hover, a[href$=".ps"]:hover, a[href$=".EPS"]:hover, a[href$=".EPSF"]:hover, a[href$=".SVG"]:hover, a[href$=".CDR"]:hover, a[href$=".DXF"]:hover, a[href$=".PS"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/eps.png"), pointer;
+}
+
+/* CorelDraw */
+a[href$=".cdr"]:hover, a[href$=".CDR"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/cdr.png"), pointer;
+}
+
+/* Gimp */
+a[href$=".xcf"]:hover, a[href$=".XCF"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/xcf.png"), pointer;
+}
+
+/* PhotoShop */
+a[href$=".psd"]:hover, a[href$=".abr"]:hover, a[href$=".eps"]:hover, a[href$=".psb"]:hover, a[href$=".pdd"]:hover, a[href$=".PSD"]:hover, a[href$=".ABR"]:hover, a[href$=".EPS"]:hover, a[href$=".PSB"]:hover, a[href$=".PDD"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/psd.png"), pointer;
+}
+
+/* Illustrator */
+a[href$=".ai"]:hover, a[href$=".ait"]:hover, a[href$=".AI"]:hover, a[href$=".AIT"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ai.png"), pointer;
+}
+
+/* INDD */
+a[href$=".indd"]:hover, a[href$=".INDD"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/indd.png"), pointer;
+}
+
+/* SCR */
+a[href$=".scr"]:hover, a[href$=".SCR"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/scr.png"), pointer;
+}
+
+/* Audio/Music */
+a[href$=".aac"]:hover, a[href$=".aic"]:hover, a[href$=".aif"]:hover, a[href$=".aiff"]:hover, a[href$=".aifc"]:hover, a[href$=".ac3"]:hover, a[href$=".amr"]:hover, a[href$=".au"]:hover, a[href$=".cdr"]:hover, a[href$=".cda"]:hover, a[href$=".dms"]:hover, a[href$=".dsf"]:hover, a[href$=".flac"]:hover, a[href$=".gp4"]:hover, a[href$=".gp5"]:hover, a[href$=".iff"]:hover, a[href$=".kar"]:hover, a[href$=".l"]:hover, a[href$=".hcom"]:hover, a[href$=".m3u"]:hover, a[href$=".m4a"]:hover, a[href$=".m4p"]:hover, a[href$=".maud"]:hover, a[href$=".mid"]:hover, a[href$=".midi"]:hover, a[href$=".mod"]:hover, a[href$=".mp2"]:hover, a[href$=".mp3"]:hover, a[href$=".mpc"]:hover, a[href$=".ogg"]:hover, a[href$=".psid"]:hover, a[href$=".r"]:hover, a[href$=".ra"]:hover, a[href$=".srf"]:hover, a[href$=".sb"]:hover, a[href$=".sf"]:hover, a[href$=".smp"]:hover, a[href$=".smd"]:hover, a[href$=".sw"]:hover, a[href$=".toc"]:hover, a[href$=".txw"]:hover, a[href$=".u"]:hover, a[href$=".ub"]:hover, a[href$=".uw"]:hover, a[href$=".voc"]:hover, a[href$=".wav"]:hover, a[href$=".wma"]:hover, a[href$=".AAC"]:hover, a[href$=".AIC"]:hover, a[href$=".AIF"]:hover, a[href$=".AIFF"]:hover, a[href$=".AIFC"]:hover, a[href$=".AC3"]:hover, a[href$=".AMR"]:hover, a[href$=".AU"]:hover, a[href$=".CDR"]:hover, a[href$=".CDA"]:hover, a[href$=".DMS"]:hover, a[href$=".DSF"]:hover, a[href$=".FLAC"]:hover, a[href$=".GP4"]:hover, a[href$=".GP5"]:hover, a[href$=".IFF"]:hover, a[href$=".KAR"]:hover, a[href$=".L"]:hover, a[href$=".HCOM"]:hover, a[href$=".M3U"]:hover, a[href$=".M4A"]:hover, a[href$=".M4P"]:hover, a[href$=".MAUD"]:hover, a[href$=".MID"]:hover, a[href$=".MIDI"]:hover, a[href$=".MOD"]:hover, a[href$=".MP2"]:hover, a[href$=".MP3"]:hover, a[href$=".MPC"]:hover, a[href$=".OGG"]:hover, a[href$=".PSID"]:hover, a[href$=".R"]:hover, a[href$=".RA"]:hover, a[href$=".SRF"]:hover, a[href$=".SB"]:hover, a[href$=".SF"]:hover, a[href$=".SMP"]:hover, a[href$=".SMD"]:hover, a[href$=".SW"]:hover, a[href$=".TOC"]:hover, a[href$=".TXW"]:hover, a[href$=".U"]:hover, a[href$=".UB"]:hover, a[href$=".UW"]:hover, a[href$=".VOC"]:hover, a[href$=".WAV"]:hover, a[href$=".WMA"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/acc.png"), pointer;
+}
+
+/* Video/Movie */
+a[href$=".3gp"]:hover, a[href$=".avi"]:hover, a[href$=".dat"]:hover, a[href$=".ivo"]:hover, a[href$=".mkv"]:hover, a[href$=".mod"]:hover, a[href$=".mov"]:hover, a[href$=".mp4"]:hover, a[href$=".mpg"]:hover, a[href$=".qt"]:hover, a[href$=".rm"]:hover, a[href$=".rv"]:hover, a[href$=".vob"]:hover, a[href$=".vro"]:hover, a[href$=".wmv"]:hover, a[href$=".divx"]:hover, a[href$=".vob"]:hover, a[href$=".vivo"]:hover, a[href$=".3GP"]:hover, a[href$=".AVI"]:hover, a[href$=".DAT"]:hover, a[href$=".IVO"]:hover, a[href$=".MKV"]:hover, a[href$=".MOD"]:hover, a[href$=".MOV"]:hover, a[href$=".MP4"]:hover, a[href$=".MPG"]:hover, a[href$=".QT"]:hover, a[href$=".RM"]:hover, a[href$=".RV"]:hover, a[href$=".VOB"]:hover, a[href$=".VRO"]:hover, a[href$=".WMV"]:hover, a[href$=".DIVX"]:hover, a[href$=".VOB"]:hover, a[href$=".VIVO"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/3gp.png"), pointer;
+}
+
+/* MOV: SWAG */
+a[href$=".MOV"]:hover, a[href$=".mov"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/mov.png"), pointer;
+}
+
+/* Flash (may not work as of 2020) */
+a[href$=".swf"]:hover, a[href$=".fla"]:hover, a[href$=".flv"]:hover, a[href$=".SWF"]:hover, a[href$=".FLV"]:hover, a[href$=".SWF"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/swf.png"), pointer;
+}
+
+/* Disk image */
+a[href$=".iso"]:hover, a[href$=".mds"]:hover, a[href$=".nrg"]:hover, a[href$=".cue"]:hover, a[href$=".ISO"]:hover, a[href$=".MDS"]:hover, a[href$=".NRG"]:hover, a[href$=".CUR"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/iso.png"), pointer;
+}
+
+/* Fonts */
+a[href$=".fnt"]:hover, a[href$=".ttf"]:hover, a[href$=".FNT"]:hover, a[href$=".TTF"]:hover, a[href$=".otf"]:hover, a[href$=".OTF"]:hover, a[href$=".EOT"]:hover, a[href$=".eot"]:hover, a[href$=".WOFF"]:hover, a[href$=".woff"]:hover, a[href$=".WOFF2"]:hover, a[href$=".woff2"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/fnt.png"), pointer;
+}
+
+/* WAD: Where's All the Data? */
+a[href$=".wad"], a[href$=".WAD"], a[href$=".pk3"], a[href$=".PK3"], a[href$=".lmp"], a[href$=".LMP"]:hover, a[href$=".dsg"]:hover, a[href$=".DSG"]:hover, a[href$=".hsg"]:hover, a[href$=".HSG"]:hover, a[href$=".ssg"]:hover, a[href$=".SSG"]:hover, a[href$=".deh"]:hover, a[href$=".DEH"]:hover, a[href$=".bex"]:hover, a[href$=".BEX"]:hover, a[href$=".mus"]:hover, a[href$=".MUS"]:hover, a[href$=".pk7"]:hover, a[href$=".PK7"]:hover, a[href$=".pke"]:hover, a[href$=".PKE"]:hover
+{
+ cursor: url("https://neozones.club/misc/hover/content/wad.png"), pointer;
+}
+
+/* Avid Technology */
+a[href$=".avb"], a[href$=".AVB"]:hover
+{
+ cursor: url("https://neozones.club/misc/hover/content/avb.png"), pointer;
+}
+
+/* PAK file: Half Life, Hexen 2 and Quake */
+a[href$=".pak"]:hover, a[href$=".PSK"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/pak.png"), pointer;
+}
+
+/* paint.net */
+a[href$=".pdn"]:hover, a[href$=".PDN"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/pdn.png"), pointer;
+}
+
+/* HTML */
+a[href$=".htm"]:hover, a[href$=".html"]:hover, a[href$=".HTM"]:hover, a[href$=".HTML"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/html.png"), pointer;
+}
+
+/* PHP */
+a[href$=".php"]:hover, a[href$=".PHP"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/php.png"), pointer;
+}
+
+/* ZX Spectrum */
+a[href$=".zed"], a[href$=".szx"], a[href$=".zxb"], a[href$=".zxp"], a[href$=".zxe"], a[href$=".$1"], a[href$=".%241"], a[href$=".pok"], a[href$=".azx"], a[href$=".chx"], a[href$=".trd"], a[href$=".tap"], a[href$=".rzx"], a[href$=".tzx"], a[href$=".ay"], a[href$=".sp"], a[href$=".sev"], a[href$=".z80"], a[href$=".dck"], a[href$=".sem"], a[href$=".mdr"], a[href$=".slt"], a[href$=".ZED"], a[href$=".SZX"], a[href$=".ZXB"], a[href$=".ZXP"], a[href$=".ZXE"], a[href$=".POK"], a[href$=".AZX"], a[href$=".CHX"], a[href$=".TRD"], a[href$=".TAP"], a[href$=".RZX"], a[href$=".TZX"], a[href$=".AY"], a[href$=".SP"], a[href$=".SEV"], a[href$=".Z80"], a[href$=".DCK"], a[href$=".SEM"], a[href$=".MDR"], a[href$=".SLT"]:hover
+{
+ cursor: url("https://neozones.club/misc/hover/content/zed.png"), pointer;
+}
+
+/* Favicon */
+a[href$=".ico"], a[href$=".ICO"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ico.png"), pointer;
+}
+
+/* Windows Movie Maker */
+a[href$=".wmm"], a[href$=".WMM"], a[href$=".wlmp"], a[href$=".WLMPA"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/wmm.png"), pointer;
+}
+
+/* Steam */
+a[href*="steam:"]:hover, a[href*="STEAM:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/steam.png"), pointer;
+}
+
+/* NASA World Wind */
+a[href*="worldwind:"]:hover, a[href*="WORLDWIND:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/worldwind.png"), pointer;
+}
+
+/* CRDOWNLOAD; For Google Chrome */
+a[href*=".crdownload"]:hover, a[href*=".CRDOWNLOAD"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/crdownload.png"), pointer;
+}
+
+/* Temporary File */
+a[href*=".tmp"]:hover, a[href*=".TMP"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/tmp.png"), pointer;
+}
+
+/* README file */
+a[href*="readme"]:hover, a[href*="README"], a[href*=".readme"]:hover, a[href*=".README"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/readme.png"), pointer;
+}
+
+/* Tagged Image File Format */
+a[href*=".tif"]:hover, a[href*=".TIFF"]:hover, a[href*=".TIF"]:hover, a[href*=".tiff"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/tif.png"), pointer;
+}
+
+/* Python */
+a[href*=".py"]:hover, a[href*=".PY"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/py.png"), pointer;
+}
+
+/* Ruby */
+a[href*=".rjs"]:hover, a[href*=".RJS"]:hover, a[href*=".erb"]:hover, a[href*=".ERB"]:hover, a[href*=".rb"]:hover, a[href*=".RB"]:hover, a[href*=".rbw"]:hover, a[href*=".RBW"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ruby.png"), pointer;
+}
+
+/* Markdown Documentation File */
+a[href*=".md"]:hover, a[href*=".MD"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/md.png"), pointer;
+}
+
+/* Mario ROM file. The only example of this being used is in "Super Mario Bros Game & Builder" that got a big fat DMCA from Nintendo */
+a[href*=".mario"]:hover, a[href*=".MARIO"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/mario.png"), pointer;
+}
+
+/* Dynamic Link Library - or just "DLL" */
+a[href*=".dll"]:hover, a[href*=".dll"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/dll.png"), pointer;
+}
+
+/* Local file (only on your computer) */
+a[href*="file:"]:hover, a[href*="FILE:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/file.png"), pointer;
+}
+
+/* 3D editors */
+a[href*=".br3"]:hover, a[href*=".BR3"]:hover, a[href*=".br4"]:hover, a[href*=".BR4"]:hover, a[href*=".br5"]:hover, a[href*=".BR5"]:hover, a[href*=".br6"]:hover, a[href*=".BR6"]:hover, a[href*=".brc"]:hover, a[href*=".BRC"]:hover, a[href*=".bsk"]:hover, a[href*=".BSK"]:hover, a[href*=".dxs"]:hover, a[href*=".DXS"]:hover, a[href*=".stl"]:hover, a[href*=".STL"]:hover, a[href*=".3ds"]:hover, a[href*=".3DS"]:hover, a[href*=".3dt"]:hover, a[href*=".3DT"]:hover, a[href*=".max"]:hover, a[href*=".MAX"]:hover, a[href*=".prj"]:hover, a[href*=".PRJ"]:hover, a[href*=".vue"]:hover, a[href*=".VUR"]:hover, a[href*=".z3d"]:hover, a[href*=".Z3D"]:hover, a[href*=".blend"]:hover, a[href*=".BLEND"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/br3.png"), pointer;
+}
+
+/* Adobe */
+a[href*=".aep"]:hover, a[href*=".AEP"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/aep.png"), pointer;
+}
+
+/* Yahoo! Messenger (Y!M) */
+a[href*="ymsgr:"]:hover, a[href*="YMSGR:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/ymsgr.png"), pointer;
+}
+
+/* Common Gateway Interface */
+a[href*=".cgi"]:hover, a[href*=".CGI"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/cgi.png"), pointer;
+}
+
+/* C Sharp */
+a[href*=".cs"]:hover, a[href*=".CS"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/cs.png"), pointer;
+}
+
+/* Active Server Pages */
+a[href*=".asp"]:hover, a[href*=".ASP"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/asp.png"), pointer;
+}
+
+/* WhatsApp Messenger */
+a[href*=".crypt12"]:hover, a[href*=".CRYPT12"]:hover, a[href*=".crypt"]:hover, a[href*=".CRYPT"]:hover, a[href*=".crypt5"]:hover, a[href*=".CRYPT5"]:hover, a[href*=".crypt5"]:hover, a[href*=".crypt6"]:hover, a[href*=".CRYPT6"]:hover, a[href*=".crypt7"]:hover, a[href*=".CRYPT7"]:hover, a[href*=".crypt8"]:hover, a[href*=".CRYPT8"]:hover, a[href*=".db.crypt12"]:hover, a[href*=".DB.CRYPT12"]:hover, a[href*=".db.crypt"]:hover, a[href*=".DB.CRYPT"]:hover, a[href*=".DB..crypt8"]:hover, a[href*=".DB.CRYPT8"]:hover, a[href*="whatsapp:"]:hover, a[href*="WHATSAPP:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/whatsapp.png"), pointer;
+}
+
+/* Xojo */
+a[href*=".xojo_xml_window"]:hover, a[href*=".XOJO_XML_WINDOW"]:hover, a[href*=".xojo_xml_toolbar"]:hover, a[href*=".XOJO_XML_TOOLBAR"]:hover, a[href*=".xojo_xml_project"]:hover, a[href*=".XOJO_XML_PROJECT"]:hover, a[href*=".xojo_xml_menu"]:hover, a[href*=".XOJO_XML_MENU"]:hover, a[href*=".xojo_window"]:hover, a[href*=".XOJO_WINDOW"]:hover, a[href*=".xojo_menu"]:hover, a[href*=".XOJO_MENU"]:hover, a[href*=".xojo_binary_window"]:hover, a[href*=".XOJO_BINARY_WINDOW"]:hover, a[href*=".xojo_binary_toolbar"]:hover, a[href*=".XOJO_BINARY_TOOLBAR"]:hover, a[href*=".xojo_binary_project"]:hover, a[href*=".XOJO_BINARY_PROJECT"]:hover, a[href*=".xojo_project"]:hover, a[href*=".XOJO_PROJECT"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/xojo.png"), pointer;
+}
+
+/* Juice Grinder */
+a[href*=".grindx"]:hover, a[href*=".GRINDX"]:hover, a[href*=".deft"]:hover, a[href*=".DEFT"]:hover, a[href*=".grind"]:hover, a[href*=".GRIND"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/juice.png"), pointer;
+}
+
+/* Malbolge - https://en.wikipedia.org/wiki/Malbolge */
+/* a[href*=".mal"]:hover, a[href*=".MAL"]:hover, a[href*=".mb"]:hover, a[href*=".MB"]:hover */
+/* { */
+  /* cursor: url("https://neozones.club/misc/hover/content/mal.png"), pointer; */
+/* } */
+
+/* LOLCODE - https://www.favicon.cc/?action=icon&file_id=910289 */
+a[href*=".lol"]:hover, a[href*=".LOL"]:hover, a[href*=".lols"]:hover, a[href*=".LOLS"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/lol.png"), pointer;
+}
+
+/* Brainfuck - https://www.favicon.cc/?action=icon&file_id=852564 */
+/* a[href*=".b"]:hover, a[href*=".B"]:hover, a[href*=".bf"]:hover, a[href*=".BF"]:hover */
+/* { */
+  /* cursor: url("https://neozones.club/misc/hover/content/bf.png"), pointer !important;} */
+/* } */
+
+/* BBC iPlayer */
+a[href*="bbc-ipd:"]:hover, a[href*="BBC-IPD:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/bbc-ipd.png"), pointer;
+}
+
+/* Gemini https://gopher.tildeverse.org/zaibatsu.circumlunar.space/1/~solderpunk/gemini / https://www.favicon.cc/?action=icon&file_id=936869 */
+a[href*="gemini:"]:hover, a[href*="GEMINI:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/gemini.png"), pointer;
+}
+
+/* Github */
+a[href*="x-github-client:"]:hover, a[href*="X-GITHUB-CLIENT:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/x-github-client.png"), pointer;
+}
+
+/* ZDaemon */
+a[href*="zds:"]:hover, a[href*="ZDS:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/wad.png"), pointer;
+}
+
+/* /idgames protocol */
+a[href*="idgames:"]:hover, a[href*="IDGAMES:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/wad.png"), pointer;
+}
+
+/* GPS Exchange Format */
+a[href*=".gpx"]:hover, a[href*=".GPX"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/gpx.png"), pointer;
+}
+
+/* spotify */
+a[href*="spotify:"]:hover, a[href*="SPOTIFY:"]:hover
+{
+  cursor: url("https://neozones.club/misc/hover/content/spotify.png"), pointer;
+}

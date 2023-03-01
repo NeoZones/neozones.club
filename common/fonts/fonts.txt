@@ -1,0 +1,14 @@
+Fonts
+
+Amatic
+README: https://neozones.neocities.org/common/fonts/SIL%20Open%20Font%20License.txt
+Direct link: https://neozones.neocities.org/common/fonts/Amatic-Bold.ttf
+Direct link: https://neozones.neocities.org/common/fonts/AmaticSC-Regular.ttf
+
+Drogowskaz
+README: https://neozones.neocities.org/common/fonts/EN%20licencja.txt
+README: https://neozones.neocities.org/common/fonts/EN%20W%C5%82a%C5%9Bciwa%20interlinia.txt
+README: https://neozones.neocities.org/common/fonts/licencja.txt
+README: https://neozones.neocities.org/common/fonts/W%C5%82a%C5%9Bciwa%20interlinia.txt
+Direct link: https://neozones.neocities.org/common/fonts/Drogowskaz.ttf
+Direct link: https://neozones.neocities.org/common/fonts/AmaticSC-Regular.ttf

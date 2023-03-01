@@ -1,0 +1,32 @@
+/* Font used is called "Drogowskaz", and was made by the Polish Government  */
+
+@font-face {
+   font-family: Drogowskaz;
+   src: url(https://owlman.neocities.org/fonts/Drogowskaz.ttf);
+}
+
+body {
+background-color:#1C2C38;
+color:#7F92FF;
+font-family: "Drogowskaz";
+}
+
+/* unvisited link */
+a:link {
+    color: #A17FFF;
+}
+
+/* visited link */
+a:visited {
+    color: #D67FFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF7FED;
+}
+
+/* selected link */
+a:active {
+    color: #FF7FB6;
+} 

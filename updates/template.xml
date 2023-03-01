@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>template</title>
+    <link rel="self" href="template" type="application/atom+xml" />
+    <link rel="alternate" href="template" type="text/html" />
+    <subtitle>template</subtitle>
+    <entry>
+        <title>template</title>
+        <link href="template" />
+        <description>template</description>
+        <content type="html">template</content>
+        <updated>template</updated>
+    </entry>
+</feed>
