@@ -26,7 +26,7 @@ SCROLLING TEXT
  Also HTML simply won't work, so you will be unable to add links
  (<a href="https://example.com">piss</a>) and anything else, so sorry, Gov. */
 document.write("<marquee scrollamount=2 scrolldelay=16 truespeed>"
-+"Welcome to NeoZones, I guess... idk..." // Owly 2020-02-02
++"NeoZones: We're back, baby!" // Owly 2020-02-02
 //+"Thank you and goodbye." // Owly 2020-01-31
 //+"Peace, prosperity and friendship with all nations!" // Owly 2020-01-30
 //+"Welcome to NeoZones, I guess... idk..." // Owly 2020-01-03
