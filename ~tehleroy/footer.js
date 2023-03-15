@@ -1,3 +1,0 @@
-document.write('<a href="https://tehleroy.neocities.org/"><div class="tehleroy2"></div></a>&nbsp;<a href="https://www.neocities.org/"><div class="ncblack"></div></a>&nbsp;<a href="https://notepad-plus-plus.org/"><div class="npppb"></div></a>&nbsp;<a href="https://www.eff.org/es/pages/blue-ribbon-campaign"><div class="fspeech"></div></a>&nbsp;<a><div class="openeyes"></div></a><br><span><small>Copyright &copy; <strong>2019 - ')
-document.write(Date().split(' ')[3]) // Print current year
-document.write('</strong> <em>Randy Asui</em>. Hosted by <a href="https://www.neocities.org/">Neocities</a> and <a href="https://neozones.neocities.org/">NeoZones</a>.</small></span>')
